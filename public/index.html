@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tailwind.css">
+
+</head>
+<body>
+<main  class="bg-gradient-to-r from-slate-900 to-slate-700 h-screen w-screen">
+
+    <div class="app-container">
+
+        <h1 class="text-center text-8xl">Counter</h1>
+        <div>
+            <p id="value" class="text-center text-yellow-300 my-10 text-6xl">0</p>
+            <div class="button-container flex justify-around">
+
+                <div class="relative inline-flex  group ">
+                    <div
+                            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <button title="Get quote now"
+                       class="btn decrease relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                       role="button">decrease
+                    </button>
+                </div>
+
+                <div class="relative inline-flex  group mx-10">
+                    <div
+                            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <button title="Get quote now"
+                            class="btn rest relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                            role="button">rest
+                    </button>
+                </div>
+
+                <div class="relative inline-flex  group">
+                    <div
+                            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+                    <button title="Get quote now"
+                            class="btn increase relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                            role="button">increase
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>

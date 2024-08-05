@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+
+
+.app-container{
+    justify-content: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-family: sans-serif;
+    color:deeppink;
+}
+

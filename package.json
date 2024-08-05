@@ -1,0 +1,16 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/app.js",
+  "scripts": {
+    "dev": "npx serve public",
+    "assets": "npx tailwindcss -i ./src/input.css -o ./public/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
